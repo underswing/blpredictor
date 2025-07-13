@@ -1,0 +1,154 @@
+#profileContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.profileCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+}
+
+.profileStats p {
+    font-size: 1.05rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profileStats h2 {
+    font-size: 1.5rem;
+}
+
+span {
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.statsRow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+
+.statsRow p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.statsRow svg {
+    margin-right: 3px;
+}
+
+.statsRow img {
+    width: 18px;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+
+#navContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+#navContainer button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#tableView {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#notPlayed {
+    margin-top: 20px;
+    overflow: auto;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+}
+
+.tableRow {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding: 10px;
+    background-color: #0c0c0c;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.59);
+}
+
+.rowLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.rowLeft img {
+    width: 70px;
+    aspect-ratio: 1;
+    border-radius: 5px;
+}
+
+.rowLeft div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rowLeft div p {
+    text-overflow: ellipsis;
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.rowMiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rowMiddle div {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.rowRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.rowRight p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rowRight p svg {
+    font-size: 1.1rem;
+}

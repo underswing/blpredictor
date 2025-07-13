@@ -1,0 +1,2 @@
+export const blBaseURL = "https://api.beatleader.xyz";
+export const getBlRankedURL = (page: number, count: number) => `${blBaseURL}/leaderboards?page=${page}&count=${count}&sortBy=stars&order=0&type=ranked&leaderboardContext=general`;
